@@ -13,9 +13,9 @@ Public Class frmZap
     Private html2 As String
     Private threadAtualiza As Thread = New Thread(AddressOf atualizarConversa)
     Friend telefoneCLI As String
-    Private telefoneNosso As String = "11945138703"
-    Private instanceId As String = "instance60949"
-    Private token As String = "7cnvbjr5fbauzawr"
+    Private telefoneNosso As String = "Telefone da instancia"
+    Private instanceId As String = "instancia"
+    Private token As String = "token"
     Private resourceCheck As Image = My.Resources.check_2
     Private resourceUnread As Image = My.Resources.check_1
     Private resourceDocument As Image = My.Resources.black_doc

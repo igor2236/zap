@@ -1,7 +1,7 @@
 ﻿Imports System.IO
 Imports Npgsql
 Module Module1
-    Public pCONECTION_ID As String = "Server=localhost;Port=5432;User Id=postgres;Password=1234;Database=zap;"
+    Public pCONECTION_ID As String = "String de conexão"
     Public ID_LoginUser As String = ""
 
 
